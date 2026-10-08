@@ -7,9 +7,8 @@ The Si4732 FM/AM receiver normally takes its reference clock from a 32.768 kHz c
 Next to the crystal network I added a pair of 0 ohm DNP pads (R3/R4, routed to ESP32 GPIO27 and GPIO32). They cost nothing and are left unpopulated. If the crystal doesn't work, the ESP32 can drive the receiver's reference clock instead.
 
 ## What happened
-One assembled unit had a crystal backup issue and the receiver wouldn't run properly. I populated the 0 ohm pads, drove the clock from the MCU, and ran data collection for several days next to reference boards in the same location to check the data quality.
+One assembled unit had a crystal backup issue and the receiver wouldn't run properly. I populated the 0 ohm pads, drove the clock from the MCU, and ran data collection for several days next to reference boards in the same location to check the data quality, resulting in the board collecting data at an accurate rate.
 
-**Result:** [ADD YOUR MEASUREMENT HERE]
 
 ## Why I like it
 - A dead board became a working one with two resistors and no respin.
