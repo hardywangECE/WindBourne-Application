@@ -16,5 +16,6 @@ One assembled unit had a crystal backup issue and the receiver wouldn't run prop
 - The fix was planned at the schematic stage, not improvised at the bench.
 - It is invisible on boards that don't need it.
 
-## Images
-- [ ] Schematic crop: crystal network and the 0 ohm tap pads
+## Image
+<img width="411" height="302" alt="image" src="https://github.com/user-attachments/assets/f231cf0c-28ff-4b5c-825d-dc98f608b1a2" />
+
